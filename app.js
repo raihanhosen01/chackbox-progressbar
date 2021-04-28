@@ -6,7 +6,7 @@ const progressLabel = document.querySelector('.progress-label')
 var counter = 0
 
 //chack box dynamic counter 
-chackBoxs.forEach((element) => 
+chackBoxs.forEach(element => 
   element.addEventListener("click", function (e) {
     const val = Math.floor(e.target.value);
     if (element.checked) counter += val
