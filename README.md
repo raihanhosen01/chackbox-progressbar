@@ -1,4 +1,4 @@
 # chackbox-progressbar
 It's a progress bar with controll chackbox
 
-[link to Google!](http://google.com)
+[LIVE DEMO](https://raihanhosen01.github.io/chackbox-progressbar/)
