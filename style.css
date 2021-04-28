@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300;400&display=swap");
+body {
+  font-family: "Bebas Neue", cursive;
+}
+main.progress-ber {
+  background: #dee8f4;
+}
+h3.progress-tittle {
+  color: #006faf;
+  letter-spacing: .3px;
+}
+label {
+  font-family: arial;
+  font-size: 14px;
+  padding-top: 4px;
+}
+.progress-label-container {
+  height: 20px;
+  background: linear-gradient(45deg, #8bc34a, #ffeb3b, #ff9800, #ff5722);
+  border-radius: 7px;
+}
+.progress-risk h6 {
+  font-weight: 100;
+  letter-spacing: 0.4px;
+}
+.progress-bar-wrapper > h5 {
+  font-weight: 100;
+  color: #006fafb3;
+  letter-spacing: 0.3px;
+}
+.progress-label {
+  height: 20px;
+  width: 0%;
+  position: relative;
+  padding: 0px 1px;
+}
+.progress-ponter {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  background: #006faf;
+  clip-path: polygon(50% 0%, 0 78%, 100% 79%);
+  top: 20px;
+}

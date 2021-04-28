@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress bar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">  
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  
+  <main class="progress-ber py-4 px-5" >
+    <div class="container-fluid progress-container px-5 ml-5" >
+      <h3 class="progress-tittle my-3 mb-4 text-center" >Do you experience any of these indicators of Insulin Resistance</h3>
+    
+      <form class="mb-3 d-flex flex-column justify-content-center">
+            <div class="progress-form-wrapper d-flex flex-column flex-sm-row">
+                <div class="progress-form-group col-12 col-sm-4">
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group c2898c4a-9a4f-4886-8006-835a436e27eb">
+                        <input class="m-2" type="checkbox" value="8" >
+                        <label class="ml-2 my-0" >Excessive abdominal fat (belly fat)</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group d87de683-c9a4-42b7-b588-5ac38f0fa3b4">
+                        <input class="m-2" type="checkbox" value="10">
+                        <label class="ml-2 my-0" >Weight gain or difficulty losing weight</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group 11806c5c-848e-4bce-af39-e2463bbcbb75">
+                        <input class="m-2" type="checkbox" value="6">
+                        <label class="ml-2 my-0" >Fatigue or low energy</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group 750abaff-0caa-4a2b-9f79-28a664128dd9">
+                        <input class="m-2" type="checkbox" value="8">
+                        <label class="ml-2 my-0" >Stress, anxiety or depression</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group bd0093fd-19a8-43e9-82c2-8fa73b1af892">
+                        <input class="m-2" type="checkbox" value="8">
+                        <label class="ml-2 my-0" >Sleeplessness</label>
+                    </div>
+                </div>
+                <div class="progress-form-group col-12 col-sm-4">
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group 839283d5-c3fd-4885-90d4-2bc8c7285434">
+                        <input class="m-2" type="checkbox" value="10">
+                        <label class="ml-2 my-0" >Slow metabolism</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group 03659aa8-d871-49ba-a5d6-ea6d6ee3463c">
+                        <input class="m-2" type="checkbox" value="8">
+                        <label class="ml-2 my-0" >Hunger and cravings between meals</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group c6052ffa-877f-444a-871a-3c84a43e4c22">
+                        <input class="m-2" type="checkbox" value="6">
+                        <label class="ml-2 my-0" >On medications</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group 2b984f9d-81ca-4fec-b27f-c38b23417850">
+                        <input class="m-2" type="checkbox" value="8">
+                        <label class="ml-2 my-0" >High blood pressure</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group">
+                        <input class="m-2"type="checkbox" value="7">
+                        <label class="ml-2 my-0" >High cholesterol or triglycerides</label>
+                    </div>
+                </div>
+                <div class="progress-form-group col-12 col-sm-4">
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group a00885b5-0f8c-4bcf-8b57-8ee0b244c1a4">
+                        <input class="m-2"  type="checkbox" value="7">
+                        <label class="ml-2 my-0" for="progress-option-a00885b5-0f8c-4bcf-8b57-8ee0b244c1a4">Pre-diabetic or type 2 diabetic</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group a1c2ee54-ef14-4b5a-abfd-cbf94be69592">
+                        <input class="m-2" type="checkbox" value="7">
+                        <label class="ml-2 my-0" for="progress-option-a1c2ee54-ef14-4b5a-abfd-cbf94be69592">Thyroid or other autoimmune disorders</label>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start mb-2 progress-option-group 72793a84-7c9f-4c2a-a3c1-4b7b12b16cb1">
+                        <input class="m-2" type="checkbox" value="7">
+                        <label class="ml-2 my-0" for="progress-option-72793a84-7c9f-4c2a-a3c1-4b7b12b16cb1">PCOS or Fertility problems</label>
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+
+      <div class="progress-bar-wrapper mt-4">
+         <div class="progress-bar-container mb-3 px-4">
+
+          <div class="row progress-risk" >
+            <div class="col-6" >
+              <h6 class="text-start" >Low risk</h6>
+            </div>
+            <div class="col-6" >
+              <h6 class="text-end" >Severe Risk</h6>
+            </div>
+          </div>
+
+            <div class="progress-label-container mb-3" >
+              <div class="progress-label" >
+                <div class="progress-ponter" ></div>
+              </div>
+            </div>
+
+         </div>
+        <h5 class="color-primary ftrem-10 fw-500 text-center">Your Risk for Insulin Resistance</h5>
+      </div>
+
+    </div>
+  </main>
+
+ <script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
